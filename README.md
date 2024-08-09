@@ -7,3 +7,7 @@ Extrai os dados de um banco de dados mysql. Verifiquei que haviam dados vazios e
 No Power bi, fiz a modelagem das tabelas e criei algumas medidas dax para totalizar alguns dados e colocá-los nos gráficos.
 
 Em seguida criei um dashboard trazendo dados de vendas das duas lojas e gráficos com informações relevantes para tomada de decisão.
+
+Segue o link para visualização do dashboard.
+
+https://app.powerbi.com/view?r=eyJrIjoiMmU2ZmRkZGEtNmUxMC00ZDM4LWIwZjktZDNmYjBmYmQwODE0IiwidCI6IjljN2JkOTM3LTY5MmItNDZiOS05NjkzLTg2MGUxNDE2MDQzOSJ9
