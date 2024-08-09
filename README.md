@@ -1,25 +1,9 @@
 # Projeto_Analise_Vendas
 
-Neste projeto farei o tratamento dos dados para analisar e indentificar possíveis motivos de cancelamento dos clientes que usam um serviço de tv por assinatura.
+Neste projeto farei o tratamento dos dados para remover dados ausentes ou em duplicidade e criar um dashboard para acompanhamento das vendas de duas filiais de uma farmácia.
 
-Após finalizar as análises trarei propostas de solução para reduzir esse número.
+Extrai os dados de um banco de dados mysql. Verifiquei que haviam dados vazios e em duplicidade, então, apliquei a correção dos dados usando querys e criei views para importar os dados para o power bi.
 
-Neste projeto usei as bibliotecas pandas e plotly para tratamento e visualização dos dados.
+No Power bi, fiz a modelagem das tabelas e criei algumas medidas dax para totalizar alguns dados e colocá-los nos gráficos.
 
-Apaguei algumas colunas irrelevantes para o projeto.
-
-Verifiquei que haviam campos vazios em 5 linhas no universo de 50000, por isto removi as linhas.
-
-Gerei alguns gráficos comparando os campos da tabela com a coluna de cancelamentos para identificar algum padrão entre os dados.
-
-Após a analise dos gráfcos, identifiquei que:
-
-Todos os clientes do contrato mensal cencelaram.
-Clientes que ligam mais do que 4 vezes para o call center, cancelaram.
-Clientes que atrasaram mais de 20 dias, cancelaram.
-Para os casos descritos acima, sugeri as seguintes propostas de solução:
-
-Verificar a possibilidade de ofercer desconto nos planos anuais e trimestrais.
-Criar um processo para resolver o problema do cliente em no máximo 3 ligações.
-Criar uma política com o time financeiro, para resolver atrasos em até 10 dias.
-Caso estas propostas sejam colocadas em prárica teríamos uma redução de cancelamentos de aproximadamente 43% para 18%.
+Em seguida criei um dashboard trazendo dados de vendas das duas lojas e gráficos com informações relevantes para tomada de decisão.
